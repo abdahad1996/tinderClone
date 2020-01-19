@@ -133,7 +133,7 @@ class SwipingPhotosController: UIPageViewController, UIPageViewControllerDataSou
     
     class PhotoController: UIViewController {
         
-        let imageView = UIImageView(image: #imageLiteral(resourceName: "ms1"))
+        let imageView = UIImageView(image: #imageLiteral(resourceName: "photo_placeholder"))
         
         init(imageUrl: String) {
             super.init(nibName: nil, bundle: nil)

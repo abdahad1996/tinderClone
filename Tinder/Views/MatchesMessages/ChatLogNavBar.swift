@@ -10,10 +10,10 @@ import LBTATools
 
 class ChatLogNavBar: UIView {
     
-    let userProfileImageView = CircularImageView(width: 44, image: #imageLiteral(resourceName: "gp3"))
+    let userProfileImageView = CircularImageView(width: 44, image: #imageLiteral(resourceName: "kelly1"))
     let usernameLabel = UILabel(text: "Kiki", font: .systemFont(ofSize: 16))
-    let backButton = UIButton(image: #imageLiteral(resourceName: "back"), tintColor: #colorLiteral(red: 1, green: 0.423529923, blue: 0.4469795823, alpha: 1))
-    let flagButton = UIButton(image: #imageLiteral(resourceName: "flag"), tintColor: #colorLiteral(red: 1, green: 0.423529923, blue: 0.4469795823, alpha: 1))
+    let backButton = UIButton(image: #imageLiteral(resourceName: "dismiss_circle"), tintColor: #colorLiteral(red: 1, green: 0.423529923, blue: 0.4469795823, alpha: 1))
+    let flagButton = UIButton(image: #imageLiteral(resourceName: "boost_circle"), tintColor: #colorLiteral(red: 1, green: 0.423529923, blue: 0.4469795823, alpha: 1))
     
     fileprivate let match: Match
     

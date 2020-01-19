@@ -52,7 +52,7 @@ class MatchView: UIView {
     }()
     
     fileprivate let currentUserImageView: UIImageView = {
-        let imageView = UIImageView(image: #imageLiteral(resourceName: "gp1"))
+        let imageView = UIImageView(image: #imageLiteral(resourceName: "kelly2"))
         imageView.clipsToBounds = true
         imageView.layer.borderWidth = 2
         imageView.layer.borderColor = UIColor.white.cgColor
@@ -61,7 +61,7 @@ class MatchView: UIView {
     }()
     
     fileprivate let cardUserImageView: UIImageView = {
-        let imageView = UIImageView(image: #imageLiteral(resourceName: "sh1"))
+        let imageView = UIImageView(image: #imageLiteral(resourceName: "jane3"))
         imageView.clipsToBounds = true
         imageView.layer.borderWidth = 2
         imageView.layer.borderColor = UIColor.white.cgColor

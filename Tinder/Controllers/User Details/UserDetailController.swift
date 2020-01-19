@@ -40,7 +40,7 @@ class UserDetailController: UIViewController, UIScrollViewDelegate {
     
     let dismissButton: UIButton = {
         let button = UIButton(type: .system)
-        button.setImage(#imageLiteral(resourceName: "dismiss_icon").withRenderingMode(.alwaysOriginal), for: .normal)
+        button.setImage(#imageLiteral(resourceName: "dismiss_down_arrow").withRenderingMode(.alwaysOriginal), for: .normal)
         button.addTarget(self, action: #selector(handleDismiss), for: .touchUpInside)
         return button
     }()

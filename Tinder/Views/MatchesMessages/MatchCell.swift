@@ -10,7 +10,7 @@ import LBTATools
 
 class MatchCell: LBTAListCell<Match> {
     
-    let profileImageView = UIImageView(image: #imageLiteral(resourceName: "ms1"), contentMode: .scaleAspectFill)
+    let profileImageView = UIImageView(image: #imageLiteral(resourceName: "lady4c"), contentMode: .scaleAspectFill)
     let usernameLabel = UILabel(text: "Username Here", font: .systemFont(ofSize: 14, weight: .semibold), textColor: #colorLiteral(red: 0.2229189277, green: 0.2188481092, blue: 0.2260057628, alpha: 1), textAlignment: .center, numberOfLines: 2)
     
     override var item: Match! {

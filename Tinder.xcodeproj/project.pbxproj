@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16B0E31423D467A1008EE455 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16B0E31323D467A1008EE455 /* GoogleService-Info.plist */; };
 		338C62809AB2703E5DAECFF1 /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12925D3774204AD56B94E44F /* Pods_Tinder.framework */; };
 		380D6710224E2D0C00E87EEE /* SettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380D670F224E2D0C00E87EEE /* SettingsController.swift */; };
-		380EE24D2242A7030003A6FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 380EE24C2242A7030003A6FD /* GoogleService-Info.plist */; };
 		38142BE52243C95300015EA8 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38142BE42243C95300015EA8 /* Bindable.swift */; };
 		381A9B38227C668700DE4AB0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381A9B37227C668700DE4AB0 /* LoginController.swift */; };
 		381A9B3A227C6AC100DE4AB0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381A9B39227C6AC100DE4AB0 /* LoginViewModel.swift */; };
@@ -66,8 +66,8 @@
 		046186034537F0718CCDA6D8 /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
 		12925D3774204AD56B94E44F /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AC78363F32C15DEEC4C6AE /* Pods_TinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B0E31323D467A1008EE455 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		380D670F224E2D0C00E87EEE /* SettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsController.swift; sourceTree = "<group>"; };
-		380EE24C2242A7030003A6FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		38142BE42243C95300015EA8 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
 		381A9B37227C668700DE4AB0 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		381A9B39227C6AC100DE4AB0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
@@ -250,8 +250,8 @@
 				386C88DF21ECD0A00078F3CE /* Controllers */,
 				38F4520621E8D7170031036F /* Extensions */,
 				38F451E621E8C60D0031036F /* AppDelegate.swift */,
+				16B0E31323D467A1008EE455 /* GoogleService-Info.plist */,
 				38F451F221E8C60F0031036F /* Info.plist */,
-				380EE24C2242A7030003A6FD /* GoogleService-Info.plist */,
 				38F451EF21E8C60F0031036F /* LaunchScreen.storyboard */,
 				38F451EA21E8C60D0031036F /* Main.storyboard */,
 				38BC323B22369F9F00E143DD /* Assets.xcassets */,
@@ -324,7 +324,7 @@
 				38F451DF21E8C60D0031036F /* Sources */,
 				38F451E021E8C60D0031036F /* Frameworks */,
 				38F451E121E8C60D0031036F /* Resources */,
-				0423291C3EAD2F6162CEF080 /* [CP] Embed Pods Frameworks */,
+				1B2AFFD9D141379DAA6BF09C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -400,8 +400,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F451F121E8C60F0031036F /* LaunchScreen.storyboard in Resources */,
-				380EE24D2242A7030003A6FD /* GoogleService-Info.plist in Resources */,
 				38BC323C22369F9F00E143DD /* Assets.xcassets in Resources */,
+				16B0E31423D467A1008EE455 /* GoogleService-Info.plist in Resources */,
 				38F451EC21E8C60D0031036F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,48 +416,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0423291C3EAD2F6162CEF080 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/LBTATools/LBTATools.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
-				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
-				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTATools.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0DBD77BEA0DDFBD27615B8D8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -478,6 +436,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B2AFFD9D141379DAA6BF09C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		792E0AA986A96EAA77286D4F /* [CP] Check Pods Manifest.lock */ = {

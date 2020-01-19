@@ -301,6 +301,7 @@ class HomeController: UIViewController, SettingsControllerDelegate, LoginControl
         let settingsController = SettingsController()
         settingsController.delegate = self
         let navController = UINavigationController(rootViewController: settingsController)
+        navController.modalPresentationStyle = .fullScreen
         present(navController, animated: true)
     }
     
